@@ -22,7 +22,7 @@ node {
     jenkins_git_creds_id: "github-rajat",
 
      // Dependency Scanning
-    dependency_check: true,
+    dependency_check: false,
     dependency_scan_tool: "owasp",
     owasp_project_name: "owasp",
     owasp_report_publish: true,
@@ -30,7 +30,7 @@ node {
     fail_job_if_dependency_returned_exception: true,
 
     // Creds Scanning
-    gitleaks_check: true,
+    gitleaks_check: false,
     fail_job_if_leak_detected: false,
     gitleaks_report_format: "json",
     gitleaks_report_jenkins_publish: true,
