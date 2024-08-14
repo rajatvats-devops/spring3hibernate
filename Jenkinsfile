@@ -15,8 +15,8 @@ node {
     clean_when_build_unstable: true,
 
     // VCS MANAGEMENT 
-    repo_https_url: "https://github.com/rajatvats-devops/spring3hibernate.git",
-    repo_ssh_url: "https://github.com/rajatvats-devops/spring3hibernate.git",
+    repo_https_url: "git@github.com:rajatvats-devops/spring3hibernate.git",
+    repo_ssh_url: "git@github.com:rajatvats-devops/spring3hibernate.git",
     repo_branch: "master",
     repo_url_type: "http",
     jenkins_git_creds_id: "github-rajat",
