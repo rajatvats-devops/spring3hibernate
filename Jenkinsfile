@@ -22,7 +22,7 @@ node {
     jenkins_git_creds_id: "github-rajat",
 
      // Dependency Scanning
-    dependency_check: false,
+    dependency_check: true,
     dependency_scan_tool: "owasp",
     owasp_project_name: "owasp",
     owasp_report_publish: true,
@@ -30,13 +30,13 @@ node {
     fail_job_if_dependency_returned_exception: true,
 
     // Creds Scanning
-    gitleaks_check: false,
+    gitleaks_check: true,
     fail_job_if_leak_detected: false,
     gitleaks_report_format: "json",
     gitleaks_report_jenkins_publish: true,
 
     // Unit Testing
-    unit_testing_check: false,
+    unit_testing_check: true,
     fail_job_if_unit_issue_detected: true,
     build_tool: "maven",
     unit_test_reports_path: "**/target/surefire-reports/**.xml",
