@@ -18,7 +18,7 @@ node {
     repo_ssh_url: "https://github.com/rajatvats-devops/spring3hibernate.git",
     repo_branch: "test",
     repo_url_type: "http",
-    jenkins_git_creds_id: "null",
+    jenkins_git_creds_id: "bit_bucket-key",
  
      // Dependency Scanning
     dependency_check: true,
