@@ -18,7 +18,7 @@ node {
     repo_ssh_url: "https://github.com/rajatvats-devops/spring3hibernate.git",
     repo_branch: "test",
     repo_url_type: "http",
-    jenkins_git_creds_id: "bit_bucket-key",
+    jenkins_git_creds_id: "null",
  
      // Dependency Scanning
     dependency_check: true,
@@ -55,7 +55,7 @@ node {
  
     // Build Dockerfile
     perform_build_dockerfile: true,
-    
+
     // Image scaning
     image_scanning_check: true,
     image_name: "spring3hibernate",
